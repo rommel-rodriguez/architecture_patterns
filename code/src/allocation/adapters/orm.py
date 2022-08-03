@@ -1,6 +1,8 @@
 from sqlalchemy import Table, MetaData, Column, Integer, String, Date, ForeignKey
 from sqlalchemy.orm import mapper, relationship
 
+# NOTE: This is use of SqlAlchemy is referred to as 'Classic', checkout the
+# 'non-classic' out-of-the-box approach to SqlAlchemy 
 import model
 
 
